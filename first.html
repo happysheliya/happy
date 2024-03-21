@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // let token = "happy sheliya"
+        // sessionStorage.setItem('data', token)
+        // console.log();
+        // console.log(sessionStorage.getItem('data'));
+
+        // let store = "happy sheliya"
+        // localStorage.getItem('data', store)
+        // // console.log();
+        // console.log(localStorage.clear('data'));
+
+
+        try {
+            let user = "happy"
+            if (!user) {
+                throw new Error("user not found")
+            }
+            console.log(user);
+        } catch (error) {
+            console.log(error.message);
+        }
+
+        // fetch('https://jsonplaceholder.typicode.com/todos')
+        //     .then((res) => res.json())
+        //     .then((json) => console.log(json))
+        //     .catch((err) => console.log(err.message))
+
+        // // </script>
+
+    <!-- <script type="module">
+        import sum from './app.js'
+
+        console.log(sum(10, 20, 30, 40))
+    </script> -->
+</body>
+
+</html>
